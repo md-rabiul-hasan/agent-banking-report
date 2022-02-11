@@ -1,0 +1,7 @@
+img {
+    height: 55px;
+}
+.tocify-wrapper>img {
+    display: block;
+    background: white!important;
+}

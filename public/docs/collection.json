@@ -1,0 +1,45 @@
+{
+    "variables": [],
+    "info": {
+        "name": "Laravel API",
+        "_postman_id": "30ba5c09-58df-410c-b12e-cbbcd84fcf40",
+        "description": "",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "User",
+            "description": "",
+            "item": [
+                {
+                    "name": "api\/store-procedure\/user-insert",
+                    "request": {
+                        "url": {
+                            "protocol": "http",
+                            "host": "localhost",
+                            "path": "api\/store-procedure\/user-insert",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"customer_id\": 9,\n    \"nominee_name\": \"Riyad Hasan\",\n    \"nominee_dob\": \"2020-01-01\",\n    \"nominee_nid_number\": \"1231231231\",\n    \"nominee_father_name\": \"Rafiqul Islam,\",\n    \"nominee_mother_name\": \"Hasina Begum,\",\n    \"nominee_relation\": \"Brother,\",\n    \"nominee_address\": \"Dhaka, Bangladesh,\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        }
+    ]
+}
